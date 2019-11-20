@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Digo</string>
+    <string name="home">Home</string>
+    <string name="love">Favorite</string>
+    <string name="akun">Akun</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_account">Akun</string>
+    <string name="title_profile">Akun Saya</string>
+
+
+    <string name="err_password">Password anda kurang dari 8 Karakter</string>
+    <string name="err_password_confirmation">password tidak cocok</string>
+    <string name="err_email">Format email tidak sesuai</string>
+    <string name="err_username">Username anda kurang dari 6 karakter</string>
+    <string name="err_phone">Cek Kembali Nomor Handphone anda</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="deskripsi_angso_duo">Pulau Angso duo, yang merupakan salah satu destinasi wisata terletak di Provinsi Sumatera Barat yang memberikan keanekragam bahari yang memukau, disamping itu, akses Pulau ini dapat dilalui  kendaraan darat dari Kota Padang dengan waktu sekitar 60menit.</string>
+
+</resources>

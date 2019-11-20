@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1097588893783",
+    "firebase_url": "https://vivid-willow-255201.firebaseio.com",
+    "project_id": "vivid-willow-255201",
+    "storage_bucket": "vivid-willow-255201.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097588893783:android:d4ac4fdbac351ce3aa1b12",
+        "android_client_info": {
+          "package_name": "com.example.digo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097588893783-fr5t1n9h6c32mq1d1lag3j6etmgo09s8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb8i3vri8rSDnTMgKvQYPKObOJLsLJhQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097588893783-fr5t1n9h6c32mq1d1lag3j6etmgo09s8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097588893783:android:14fa97e8e2e92e64aa1b12",
+        "android_client_info": {
+          "package_name": "com.wildan.simplelogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097588893783-fr5t1n9h6c32mq1d1lag3j6etmgo09s8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb8i3vri8rSDnTMgKvQYPKObOJLsLJhQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097588893783-fr5t1n9h6c32mq1d1lag3j6etmgo09s8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

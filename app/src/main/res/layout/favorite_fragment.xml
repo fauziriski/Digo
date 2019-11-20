@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/angsoduo"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/fav_angsoduo"
+        />
+
+    <ImageView
+        android:id="@+id/siger"
+        android:layout_below="@id/angsoduo"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/list_satu"
+        />
+
+    <ImageView
+        android:id="@+id/ringgung"
+        android:layout_below="@id/siger"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ringgung_fav"
+        />
+
+    <ImageView
+        android:id="@+id/rumahsakit"
+        android:layout_below="@id/ringgung"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/fav_rsud"
+        />
+
+    
+
+</RelativeLayout>

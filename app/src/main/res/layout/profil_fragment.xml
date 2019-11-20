@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="289dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="25dp"
+        android:clickable="true"
+        android:background="@drawable/button_orange"
+        android:text="Masuk Akun Saya"
+        android:onClick="goToLoginActivity"/>
+
+    <TextView
+        android:id="@+id/txt_info_not_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Silahkan masuk untuk menikmati layanan yang tersedia"
+        android:layout_above="@+id/login_btn"/>
+
+    <ImageView
+        android:layout_width="192dp"
+        android:layout_height="186dp"
+        android:layout_above="@+id/txt_info_not_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/ic_move_to_inbox_24px" />
+
+</RelativeLayout>

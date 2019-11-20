@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_width="match_parent">-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarActivity"
+    app:passwordToggleEnabled="true"
+    android:background="@drawable/bglogin">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="179dp"
+        android:layout_height="77dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="90dp"
+        android:background="@drawable/digo_logo"
+        />
+
+    <EditText
+        android:id="@+id/userid"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-70dp"
+        android:hint="Nama Pengguna"
+        android:maxLines="1"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/abu"
+        android:background="@drawable/button_putih"
+        android:paddingLeft="20dp"
+        />
+
+    <EditText
+        android:id="@+id/pass1"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Kata Sandi"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:textColorHint="@color/abu"
+        android:background="@drawable/button_putih"
+        android:paddingLeft="20dp"
+        />
+
+    <EditText
+        android:id="@+id/pass2"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Tulis Ulang Kata Sandi"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:textColorHint="@color/abu"
+        android:background="@drawable/button_putih"
+        android:paddingLeft="20dp"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColorHint="@color/abu"
+        android:background="@drawable/button_putih"
+        android:paddingLeft="20dp"
+        />
+
+    <EditText
+        android:id="@+id/handphone"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Handphone"
+        android:maxLines="1"
+        android:inputType="number"
+        android:textColorHint="@color/abu"
+        android:background="@drawable/button_putih"
+        android:paddingLeft="20dp"
+        />
+
+    <Button
+        android:onClick="goToLoginActivity"
+        android:id="@+id/btnBuatAkun"
+        android:layout_width="289dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/handphone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/button_orange"
+        android:clickable="true"
+        android:text="Daftar Akun Baru"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

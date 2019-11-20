@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/lembahhijau"
+                android:layout_width="400dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="180dp"
+                android:background="@drawable/field_1"
+                android:clickable="true"/>
+
+            <ImageButton
+                android:id="@+id/sariringgung"
+                android:layout_below="@id/lembahhijau"
+                android:layout_width="400dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/field_2"
+                android:clickable="true"/>
+
+            <ImageButton
+                android:id="@+id/siger"
+                android:layout_below="@id/sariringgung"
+                android:layout_width="400dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/field_3"
+                android:clickable="true"/>
+
+            <ImageButton
+                android:id="@+id/angsoduo"
+                android:layout_below="@id/siger"
+                android:layout_width="400dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/field_4"
+                android:clickable="true"/>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
